@@ -1,0 +1,33 @@
+/* Banner.module.css */
+.banner {
+   height: 250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 25px;
+   position: relative;
+   margin-top: 50px;
+}
+
+.banner::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.3);
+   border-radius: 25px;
+}
+
+.banner h1 {
+   font-size: 2.7em;
+   color: white;
+   width: 60%;
+   text-align: center;
+   font-weight: 100;
+   position: relative;
+}
