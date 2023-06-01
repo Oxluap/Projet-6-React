@@ -29,3 +29,13 @@
    border-radius: 0 0 5px 5px;
    background-color: #f6f6f6;
 }
+
+@media only screen and (max-width: 600px) {
+   .collapse {
+      margin-bottom: 30px;
+   }
+
+   .header h2 {
+      font-size: 1em;
+   }
+}

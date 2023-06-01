@@ -21,3 +21,19 @@
    font-size: 1.3em;
    margin-top: 150px;
 }
+
+@media only screen and (max-width: 600px) {
+   .title {
+      font-size: 7em;
+   }
+
+   .notFound p {
+      text-align: center;
+      font-size: 1.3em;
+      margin-top: 70px;
+   }
+
+   .link {
+      margin-top: 70px;
+   }
+}

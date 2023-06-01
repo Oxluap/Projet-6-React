@@ -24,3 +24,10 @@
    padding-left: 15px;
    box-sizing: border-box;
 }
+
+@media only screen and (max-width: 600px) {
+   .card {
+      height: 300px;
+      margin-bottom: 0px;
+   }
+}

@@ -34,3 +34,28 @@
 .rightVector:hover {
    opacity: 1;
 }
+
+@media only screen and (max-width: 600px) {
+   .gallery {
+      height: 300px;
+   }
+
+   .currentPicture {
+      border-radius: 15px;
+   }
+
+   .leftVector,
+   .rightVector {
+      height: 25px;
+      transition: none;
+      opacity: 1;
+   }
+
+   .leftVector {
+      left: 10px;
+   }
+
+   .rightVector {
+      right: 10px;
+   }
+}
