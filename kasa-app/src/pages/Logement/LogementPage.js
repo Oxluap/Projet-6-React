@@ -1,15 +1,12 @@
 import { useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Gallery from '../../components/Gallery';
-import logementsData from '../../datas/logements.json';
 import styles from '../../styles/LogementPage.module.css';
 import Collapse from '../../components/Collapse';
 import Rating from '../../components/Rating';
 
-function LogementPage() {
-   const { id } = useParams();
+function LogementPage({ logement }) {
    const navigate = useNavigate();
-   const logement = logementsData.find((logement) => logement.id === id);
 
    useEffect(() => {
       if (!logement) {
