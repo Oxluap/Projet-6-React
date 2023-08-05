@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.663f923d.css",
-    "main.js": "/static/js/main.3a51521c.js",
-    "static/media/aboutBanner.png": "/static/media/aboutBanner.8e5138afef8b0728a9c1.png",
-    "static/media/homeBanner.png": "/static/media/homeBanner.3681acb72f6284423910.png",
-    "index.html": "/index.html",
-    "main.663f923d.css.map": "/static/css/main.663f923d.css.map",
-    "main.3a51521c.js.map": "/static/js/main.3a51521c.js.map"
+    "main.css": "/Projet-6-React/static/css/main.663f923d.css",
+    "main.js": "/Projet-6-React/static/js/main.7129ea77.js",
+    "static/media/aboutBanner.png": "/Projet-6-React/static/media/aboutBanner.8e5138afef8b0728a9c1.png",
+    "static/media/homeBanner.png": "/Projet-6-React/static/media/homeBanner.3681acb72f6284423910.png",
+    "index.html": "/Projet-6-React/index.html",
+    "main.663f923d.css.map": "/Projet-6-React/static/css/main.663f923d.css.map",
+    "main.7129ea77.js.map": "/Projet-6-React/static/js/main.7129ea77.js.map"
   },
   "entrypoints": [
     "static/css/main.663f923d.css",
-    "static/js/main.3a51521c.js"
+    "static/js/main.7129ea77.js"
   ]
 }
