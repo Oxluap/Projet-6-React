@@ -1,4 +1,4 @@
-# Project Name
+# Kasa 
 
 This project involved building a web application with React.js similar to airbnb or booking.com. 
 
